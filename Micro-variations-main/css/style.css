@@ -1,0 +1,296 @@
+body{
+  height: 300vh; 
+}
+
+main{
+  position : fixed;
+  height: 100vh;
+  width: 100vw;
+  color:black;
+  background-color:white;
+  background-image:url(/image/fond.jpg);
+  margin:0;
+}
+
+/* ne pas toucher aux éléments ci-dessus. On travail c'est ce qui permet d'avoir une page que l'on peut 
+"scroller" mais qui visuellement ne bouge pas. */
+
+
+
+#cercle1{
+  position: absolute;
+  left: 143px;
+  height: 108px;
+  top: 28px;
+  
+}
+
+#cercle2{
+  position: absolute;
+  left: 720px;
+  height: 108px;
+  top: 230px;
+}
+
+#cercle3{
+  position: absolute;
+  left: 1210px;
+  height: 108px;
+  top: 33px;
+}
+
+#cercle4{
+  position: absolute;
+  left: 1116px;
+  height: 108px;
+  top: 614px;
+}
+
+#cercle5{
+  position: absolute;
+  left: 314px;
+  height: 108px;
+  top: 546px;
+  
+}
+
+#trait1{
+  position: absolute;
+  rotate: -2deg;
+  top: 328px;
+ height: 50px;
+}
+
+#trait2{
+  position: absolute;
+  rotate: 19deg;
+  top: 409px;
+ height: 50px;
+ left: -521px;
+}
+
+#trait3{
+  position: absolute;
+  rotate: 64deg;
+  top: 300px;
+  left: -552px;
+ height: 50px;
+}
+
+#trait4{
+  position: absolute;
+  rotate: 77deg;
+  top: 114px;
+ height: 50px;
+ left: -935px;
+}
+
+#trait5{
+  position: absolute;
+  rotate: -36deg;
+  top: 378px;
+ height: 50px;
+ left:-462px ;
+}
+
+#trait6{
+  position: absolute;
+  rotate: -30deg;
+  top: 391px;
+ height: 50px;
+ left:-1228px ;
+}
+
+#trait7{
+  position: absolute;
+  rotate: 59deg;
+  top: 378px;
+ height: 50px;
+ left:-1386px ;
+}
+
+
+
+@media (max-width: 500px) {
+  /*apparence différente pour une page inférieure à 800px*/
+    #cercle1{
+        position: absolute;
+        left: 34px;
+        height: 75px;
+        top: 106px;
+    }
+    #cercle2{
+      position: absolute;
+      left: 205px;
+      height: 75px;
+      top: 124px;
+    }
+
+    #cercle3{
+      position: absolute;
+      left: 221px;
+      height: 75px;
+      top: 468px;
+    }
+    #cercle4{
+      position: absolute;
+      left: 43px;
+      height: 75px;
+      top: 343px;
+    }
+    #cercle5{
+      position: absolute;
+      left: 281px;
+      height: 75px;
+      top: 295px;
+    }
+
+    #trait1{
+      position: absolute;
+      rotate: 85deg;
+      top: 289px;
+     height: 30px;
+     left: -721px;
+    }
+    
+    #trait2{
+      position: absolute;
+      rotate: 75deg;
+      top: 272px;
+     height: 30px;
+     left: -474px;
+    }
+    
+    #trait3{
+      position: absolute;
+      rotate: 35deg;
+      top: 378px;
+      left: -626px;
+     height: 30px;
+    }
+    
+    #trait4{
+      position: absolute;
+      rotate: -49deg;
+      top: 245px;
+     height: 30px;
+     left: -623px;
+    }
+    
+    #trait5{
+      position: absolute;
+      rotate: -9deg;
+      top: 347px;
+     height: 30px;
+     left:-265px ;
+    }
+    
+    #trait6{
+      position: absolute;
+      rotate: -64deg;
+      top: 500px;
+     height: 30px;
+     left:-528px ;
+    }
+
+    #trait7{
+      position: absolute;
+      rotate: 59deg;
+      top: 378px;
+     height: 21px;
+     left:-1489px ;
+    }
+    
+  }
+  
+  @media (max-width: 1000px) and (min-width :500px){
+  /*apparence différente pour une page comprise entre 800px et 1000px*/
+  #cercle1{
+    position: absolute;
+    left: 589px;
+    height: 108px;
+    top: 10px;
+     
+}
+#cercle2{
+  position: absolute;
+  left: 92px;
+  height: 108px;
+  top: 229px;
+}
+
+#cercle3{
+  position: absolute;
+  left: 527px;
+  height: 108px;
+  top: 260px;
+}
+#cercle4{
+  position: absolute;
+  left: 265px;
+  height: 108px;
+  top: 537px;
+}
+#cercle5{
+  position: absolute;
+  left: 622px;
+  height: 108px;
+  top: 580px;
+}
+
+#trait1{
+  position: absolute;
+  rotate: 32deg;
+  top: 474px;
+ height: 50px;
+ left: -709px;
+}
+
+#trait2{
+  position: absolute;
+  rotate: 72deg;
+  top: 109px;
+ height: 50px;
+ left: -1069px;
+}
+
+#trait3{
+  position: absolute;
+  rotate: 58deg;
+  top: 200px;
+  left: -1466px;
+ height: 50px;
+}
+
+#trait4{
+  position: absolute;
+  rotate: -30deg;
+  top: 317px;
+ height: 50px;
+ left: -1086px;
+}
+
+#trait5{
+  position: absolute;
+  rotate: -42deg;
+  top: 400px;
+ height: 50px;
+ left:-698px ;
+}
+
+#trait6{
+  position: absolute;
+  rotate: 0deg;
+  top: 450px;
+ height: 50px;
+ left:-58px ;
+}
+
+#trait7{
+  position: absolute;
+  rotate: 59deg;
+  top: 600px;
+ height: 50px;
+ left:-580px ;
+}
+  }
